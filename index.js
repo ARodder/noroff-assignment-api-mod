@@ -17,6 +17,7 @@ server.use((request, response, next) => {
     if(request.headers['origin'] !== process.env.FRONTEND_ORIGIN){
         return response.status('401').json({error: 'You are not allowed to access this resource'})
     }
+    
     if (request.method.toLowerCase() !== HTTP_METHOD_GET) {
         console.log("Origin: "+ request.headers['origin'], "Looking for: "+process.env.FRONTEND_ORIGIN);
         

@@ -19,18 +19,6 @@
         "hello world",
         "react is fun"
       ]
-    },
-    {
-      "username": "Aleksander",
-      "translations": [],
-      "id": 2
-    },
-    {
-      "username": "petter",
-      "translations": [
-        "petter er mitt navn"
-      ],
-      "id": 3
     }
   ],
   "trainers": [
@@ -38,8 +26,7 @@
       "id": 1,
       "username": "ash",
       "pokemon": [
-        "bulbasaur",
-        "pikachu"
+        "bulbasaur"
       ]
     }
   ],
